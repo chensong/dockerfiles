@@ -47,6 +47,9 @@ A collection of delicious docker recipes.
 - [x] ambari
 - [x] kafka-arm
 - [x] kafka-manager
+- [x] luigi
+- [x] nifi
+- [x] openrefine
 - [x] prestodb (official)
 - [x] prestosql (community)
 - [x] superset-arm
@@ -68,6 +71,30 @@ A collection of delicious docker recipes.
 - [x] hubot :octocat:
 - [x] jenkins-arm :beetle:
 
+## Machine Learning
+
+- [x] ludwig
+
+## Cluster
+
+- [x] ggr
+- [x] ggr-ui
+- [x] jsonwire-grid
+
+## Monitor
+
+- [x] collectd
+- [x] elastalert
+- [x] glances
+- [x] grafana
+- [x] graphite
+- [x] influxdb
+- [x] logstash
+- [x] statsd
+- [x] telegraf
+- [x] urlwatch :beetle:
+- [x] vnstat
+
 ## Daemon
 
 - [x] alpine-arm :+1:
@@ -76,16 +103,11 @@ A collection of delicious docker recipes.
 - [x] audiowaveform
 - [x] cadvisor
 - [x] casperjs :+1:
-- [x] collectd
 - [x] freegeoip
 - [x] freeradius
 - [x] frp :cn:
-- [x] graphite
 - [x] h2o
 - [x] httpbin :+1:
-- [x] influxdb
-- [x] logstash
-- [x] luigi
 - [x] mariadb
 - [x] mariadb-arm
 - [x] monit
@@ -93,7 +115,6 @@ A collection of delicious docker recipes.
 - [x] mosquitto
 - [x] motion-arm :+1:
 - [x] nginx
-- [x] nifi
 - [x] ntopng
 - [x] nullmailer
 - [x] nullmailer-arm
@@ -113,14 +134,11 @@ A collection of delicious docker recipes.
 - [x] samba :+1:
 - [x] samba-arm :+1:
 - [x] scrapyd :+1:
-- [x] statsd
 - [x] swarm-arm
 - [x] taskd
-- [x] telegraf
 - [x] tftpd
 - [x] tmail :beetle:
-- [x] urlwatch :beetle:
-- [x] vnstat
+- [x] twemproxy
 - [x] vsftpd
 - [x] webhook
 - [x] webkit :beetle:
@@ -156,9 +174,7 @@ A collection of delicious docker recipes.
 - [x] django-cms
 - [x] dokuwiki :+1:
 - [x] dokuwiki-arm :+1:
-- [x] glances
 - [x] gogs-arm :cn:
-- [x] grafana
 - [x] hugo
 - [x] hugo-arm
 - [x] jamapi
@@ -168,12 +184,12 @@ A collection of delicious docker recipes.
 - [x] mediagoblin
 - [x] nginad
 - [x] nodebb :+1:
-- [x] openrefine
 - [x] phpbb
 - [x] phpmyadmin-arm
 - [x] phpvirtualbox-arm
 - [x] piwik
 - [x] revive
+- [x] tiddlywiki
 - [x] zoneminder :+1:
 
 ## E-commerce
@@ -231,6 +247,7 @@ A collection of delicious docker recipes.
 
 ## VPN
 
+- [x] dsvpn :+1:
 - [x] n2n :+1:
 - [x] ocserv :+1:
 - [x] openconnect
@@ -256,7 +273,7 @@ A collection of delicious docker recipes.
 - [x] dnsmasq-arm
 - [x] pdnsd
 
-## 3rd-party
+## 3rd-party (sorted by basename)
 
 - [x] docker.bintray.io/jfrog/artifactory-oss
 - [x] tutum/builder
@@ -267,9 +284,10 @@ A collection of delicious docker recipes.
 - [x] confluentinc/cp-kafka-rest
 - [x] streamsets/datacollector
 - [x] cachethq/docker
+- [x] snowzach/doods
 - [x] drone/drone
 - [x] drupal
-- [x] elastalert
+- [x] elastichq/elasticsearch-hq
 - [x] elk
 - [x] flogo/flogo-docker
 - [x] mher/flower
@@ -286,22 +304,25 @@ A collection of delicious docker recipes.
 - [x] haproxy
 - [x] jmxtrans/jmxtrans
 - [x] wurstmeister/kafka
+- [x] devopsfaith/krakend
 - [x] netdata/netdata
 - [x] nextcloud
 - [x] sonatype/nexus3
+- [ ] jwilder/nginx-proxy
 - [x] jazzdd/phpvirtualbox
 - [x] jenkins
 - [x] sonatype/nexus3
 - [x] jupyter/notebook
-- [x] kylemanna/openvpn
 - [x] metabase/metabase
 - [x] metasploitframework/metasploit-framework :skull:
 - [x] minio/minio
 - [x] mongo
 - [x] neo4j
 - [x] erichough/nfs-server
+- [x] luzifer/nginx-sso
 - [x] odoo
 - [x] osixia/openldap
+- [x] kylemanna/openvpn
 - [x] campbellsoftwaresolutions/osticket
 - [x] owncloud
 - [x] phpmyadmin
@@ -309,16 +330,29 @@ A collection of delicious docker recipes.
 - [x] portainer/portainer :+1:
 - [x] postgres
 - [x] postgrest/postgrest
+- [x] prosody/prosody
 - [x] registry
+- [x] restic/rest-server
 - [x] rocket.chat
 - [x] rundeck/rundeck
 - [x] wonderfall/searx
-- [ ] selenium
-    - [ ] hub
-    - [ ] node-firefox
+- [x] selenium
+    - [x] hub
+    - [x] node-chrome
+    - [x] node-firefox
     - [x] standalone-firefox
+- [x] aerokube
+    - [x] selenoid
+      - [x] video-recorder
+      - [x] chrome
+      - [x] firefox
+      - [x] vnc
+    - selenoid-ui
 - [x] sentry
 - [x] scrapinghub/splash
+- [x] teamatldocker
+    - [x] confluence
+    - [x] jira
 - [x] amancevice/superset
 - [x] v2ray/official :cn:
 - [x] centurylink/watchtower
